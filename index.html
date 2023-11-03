@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yerim's Drawing</title>
+
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Swiper demo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+        <!-- Demo styles -->
+        <style>
+
+    @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+            html,
+            body {
+                position: relative;
+                height: 100%;
+            }
+
+            body {
+                background: #eee;
+                background: linear-gradient(135deg, rgb(198, 241, 255), #f7e8ff);
+                font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+                font-size: 14px;
+                color: #000;
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            h1{font-size: 50px; color: #fff; text-align: center; font-family: 'Italianno', cursive; 
+            text-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);}
+
+            .swiper {
+                width: 100%;
+                padding-top: 0px;
+                top: 40%;
+                transform: translateY(-40%);
+            }
+
+            .swiper-slide {
+                background-position: center;
+                background-size: cover;
+                width: 800px;
+            }
+
+            .swiper-slide img {
+                display: block;
+                width: 100%;
+                box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.3);
+            }
+        </style>
+    </head>
+
+    <body>
+        
+        <!-- Swiper -->
+        <h1>Yerim's Drawing</h1>
+        
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="drawing1.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="drawing2.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="drawing3.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="drawing4.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="drawing5.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="drawing6.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="drawing7.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="drawing8.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="drawing9.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="drawing10.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="drawing11.jpg" />
+                </div>
+              
+                <div class="swiper-slide">
+                    <img src="drawing12.jpg" />
+                </div>
+              
+                <div class="swiper-slide">
+                    <img src="drawing13.jpg" />
+                </div>
+              
+
+            </div>
+
+        </div>
+
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                effect: "coverflow",
+                grabCursor: true,
+                centeredSlides: true,
+                spaceBetween: 50,
+                slidesPerView: "auto",
+                coverflowEffect: {
+                    rotate: 50,
+                    stretch: 0,
+                    depth: 100,
+                    modifier: 1,
+                    slideShadows: true,
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                },
+            });
+        </script>
+    </body>
+
+    </html>
+
+</body>
+
+</html>
